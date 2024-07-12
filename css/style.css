@@ -1,0 +1,137 @@
+/*font links*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/*common start*/
+:root{
+	--lato: 'Lato', sans-serif;
+	--rob: 'Roboto', sans-serif;
+	--fwr: 400;
+	--fwm: 500;
+	--fwb: 700;
+	--black: #000000;
+	--gray: #8e8e8e;
+	--white: #FFFFFF;
+}
+body{
+	font-family: var(--rob);
+	font-size: 16px;
+	font-weight: var(--fwr);
+	color: var(--gray);
+}
+
+
+/*common end*/
+/*header start*/
+header{
+	padding: 15px 0;
+	
+}
+.menu ul li a{
+	padding: 0 15px !important;
+	font-family: var(--lato);
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: var(--fwr);
+	color: var(--gray) !important;
+}
+.menu ul li a:hover{
+	color: var(--black) !important;
+}
+/*header end*/
+/*banner start*/
+#banner{
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--white);
+}
+.slider_content{
+	padding: 250px 0;
+}
+.slider_content h1{
+	font-size: 50px;
+	font-family: var(--lato);
+	font-weight: var(--fwr);
+}
+.slider_content p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.btn_c{
+	padding: 10px 20px;
+	background-color: var(--white);
+	color: var(--black);
+}
+.btn_c:hover{
+	background-color: var(--black);
+	color: var(--white);
+}
+/*banner end*/
+/*welcome section start*/
+.c_title h1{
+    padding: 30px 0 50px;
+    font-family: var(--lato);
+    font-size: 30px;
+    font-weight: var(--fwr);
+    color: var(--black);
+}
+.c_text p{
+    padding-bottom: 80px;
+}
+/*welcome section end*/
+
+
+
+/*box card start*/
+.nb_card{
+	margin-bottom: 80px;
+	text-align: center;
+	border: none;
+}
+.n_card{
+	padding: 50px 20px;
+	border: 2px solid var(--gray);
+}
+.n_card:hover{
+	border: 2px solid var(--black);
+}
+.n_card i{}
+.n_card h2{
+	font-family: var(--lato);
+	font-size: 20px;
+	font-weight: var(--fwb);
+	line-height: 30px;
+}
+.n_card p{
+	margin: 20px 0;
+}
+.btn_card{
+
+	padding: 10px 10px;
+	background-color: var(--white);
+	color: var(--gray);
+}
+.btn_card:hover{
+	background-color: transparent;
+	color: var(--black);
+}
+.btn_card span{
+	font-weight: var(--fwm);
+}
+
+/*box card end*/
+/*about start*/
+.about {
+	padding: 40px 0;
+}
+.a_text h2 {
+	font-family: var(--lato);
+	font-size: 30px;
+	color: var(--black);
+}
+.a_text p {
+	font-family: var(--rob);
+}
+
+/*about end*/
